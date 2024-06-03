@@ -1,5 +1,6 @@
 import openai
 
+
 class Chatbot:
     def __init__(self):
         openai.api_key = "Your OpenAI API Key"

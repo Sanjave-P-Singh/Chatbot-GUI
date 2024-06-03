@@ -4,6 +4,7 @@ import threading
 from PyQt6.QtWidgets import QMainWindow, QApplication ,QLineEdit, QTextEdit, QPushButton
 from backend import Chatbot
 
+
 class ChatbotWindow(QMainWindow):
     def __init__(self):
         super().__init__()
